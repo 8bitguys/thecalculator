@@ -1,3 +1,5 @@
+function calc() {
+
 function firstNumber() {
     prompt("Type in the first number that you want to add,subtract,divide,multiply,power(square or to the power of) or square root.");
 }
@@ -8,9 +10,6 @@ function secondNumber(){
     prompt("Type in the second number that you want to add,subtract,divide,multiply,square or square root.");
 }
 
-firstNumber()
-operationForNumber()
-secondNumber()
 switch (operationForNumber) {
     case +:
         firstNumber + secondNumber
@@ -30,4 +29,5 @@ switch (operationForNumber) {
         sqrt(firstNumber)
     default:
         console.log("The number you have typed is too great to be calculated or the operation that you chose(+,/,-,X) isn't valid!");
+}
 }
