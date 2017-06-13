@@ -1,7 +1,16 @@
-var firstNumber = prompt("Type in the first number that you want to add,subtract,divide,multiply,power(square or to the power of) or square root.");
-var operationForNumber = prompt("Type in the symbol that matches the operation that you want to use(2 for square, ! for square root, /,for division and a * for multiplication).");
-var secondNumber = prompt("Type in the second number that you want to add,subtract,divide,multiply,square or square root.");
+function firstNumber() {
+    prompt("Type in the first number that you want to add,subtract,divide,multiply,power(square or to the power of) or square root.");
+}
+function operationForNumber() {
+    prompt("Type in the symbol that matches the operation that you want to use(2 for square, ! for square root, /,for division and a * for multiplication).");
+}
+function secondNumber(){
+    prompt("Type in the second number that you want to add,subtract,divide,multiply,square or square root.");
+}
 
+firstNumber()
+operationForNumber()
+secondNumber()
 switch (operationForNumber) {
     case +:
         firstNumber + secondNumber
